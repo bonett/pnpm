@@ -10,7 +10,7 @@ cache:
 
 sudo: false
 before_install:
-  - npm install -g pnpm
+  - npm install -g @zkochan/pnpm@0.55.3
 install:
   - pnpm install
 script:
